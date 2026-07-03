@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
             duration: 0.3,
             onComplete: () => mobileMenu.classList.add('hidden')
         });
-        document.body.style.overflow = 'auto'; // Votre ajout (parfait !)
+        document.body.style.overflow = 'auto'; 
     }
 
     openBtn.addEventListener('click', openMenu);
