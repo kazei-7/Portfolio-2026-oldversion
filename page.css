@@ -412,7 +412,7 @@ body {
 
 
         
-        /* Cacher le curseur sur les petits écrans */
+        /* Cache le curseur sur les petits écrans */
         @media (max-width: 768px) {
             #cursor-dot, #cursor-outline {
                 display: none;
@@ -424,12 +424,12 @@ body {
 
                 .swiper-button-prev,
              .swiper-button-next {
-               display: none; /* Cacher les flèches de navigation */
+               display: none; /* Cache les flèches de navigation */
              }
              .swiper-button-prev:after,
              .swiper-button-next:after {
   
-               display: none; /* Cacher les icônes des flèches */
+               display: none; /* Cache les icônes des flèches */
              }
 
 
